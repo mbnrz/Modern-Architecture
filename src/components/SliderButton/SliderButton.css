@@ -1,0 +1,22 @@
+.r-button {
+  text-align: end;
+  margin-bottom: 26px;
+  position: absolute;
+  gap: 1rem;
+  top: -4rem;
+  right: 0;
+}
+.r-button > button {
+  color: blue;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  box-shadow: 1px 3px 13px rgba(0, 0, 0, 0.127);
+  margin: -2px;
+  cursor: pointer;
+  border: none;
+  border-radius: 9px;
+}
+.r-button > button:hover {
+  background-color: #eeeeff;
+}

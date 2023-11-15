@@ -1,0 +1,30 @@
+.h-wrapper {
+  color: white;
+}
+.h-container {
+  justify-content: space-between;
+  color: var(--secondary);
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.h-menu {
+  gap: 2rem;
+}
+.h-menu>a{
+    text-decoration: none;
+    color: white;
+}
+.h-menu>button>a{
+    text-decoration: none;
+    color: white;
+}
+.h-menu > *:hover {
+  cursor: pointer;
+}
+#img {
+  transform: scale(2.4);
+  width: 150px;
+  height: 80px;
+  margin-top: -20px;
+  margin-bottom: -23px;
+}

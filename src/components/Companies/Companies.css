@@ -1,0 +1,7 @@
+.Companies {
+  gap: 1rem;
+  justify-content: space-around;
+}
+.Companies > img {
+  width: 10rem;
+}

@@ -1,0 +1,28 @@
+.r-container {
+  overflow: hidden;
+  position: relative;
+}
+.r-card {
+  gap: 0.6rem;
+  max-width: max-content;
+  padding: 1rem;
+  margin: auto;
+  transition: all 300ms ease-in;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+.r-card:hover {
+  background: linear-gradient(to bottom, white, #6ea3ff31);
+  border-radius: 20px;
+  transform: scale(1.03);
+  box-shadow: 1px 3px 13px rgba(0, 0, 0, 0.127);
+  cursor: pointer;
+}
+.r-card > img {
+  width: 100%;
+  max-width: 15rem;
+}
+.swiper-horizontal {
+  overflow: visible;
+}
+

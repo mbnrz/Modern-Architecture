@@ -1,0 +1,32 @@
+.v-container .image-container {
+  border: 8px solid rgb(232 232 232 / 93%);
+}
+.v-container > div {
+  flex: 1;
+}
+.v-right {
+  gap: 0.5rem;
+}
+.Accordion .primaryText {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+.iconn {
+  color: rgba(0, 0, 255, 0.596);
+  width: 40px;
+  height: 40px;
+  background-color: #e3e3ff;
+  box-shadow: 1px 3px 13px rgba(0, 0, 0, 0.127);
+  cursor: pointer;
+  border: none;
+  border-radius: 9px;
+  text-align: center;
+  line-height: 40px;
+  margin: 10px;
+}
+ #Card{
+    box-shadow: 1px 3px 13px rgba(0, 0, 0, 0.187);
+}
+
