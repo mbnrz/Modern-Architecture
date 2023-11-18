@@ -5,7 +5,9 @@ import { useSwiper } from "swiper/react";
 const SliderButton = () => {
   const swiper = useSwiper();
   return (
+
     <div className="r-button flexCenter">
+      <br />
       <button onClick={() => swiper.slidePrev()} >
         &lt;
       </button>

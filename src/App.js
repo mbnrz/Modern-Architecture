@@ -15,7 +15,9 @@ const App = () => {
       <div>
         <div className="white-gradient" />
         <Header />
+        <section className="ml-10 mt-3">
         <Hero />
+        </section>
       </div>
       <Companies />
       <Residencies />

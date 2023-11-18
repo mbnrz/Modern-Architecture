@@ -17,7 +17,10 @@ const Residencies = () => {
           <span className="orangeText">Best Choices</span>
           <span className="primaryText">Popular Residencies</span>
         </div>
+          <br />
+          <br />
         <Swiper {...SliderSetting}>
+          <br />
         <SliderButton/>
           {DataSlider.map((data) => (
             <SwiperSlide key={data.id}>
